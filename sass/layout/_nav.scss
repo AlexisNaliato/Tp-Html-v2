@@ -1,0 +1,41 @@
+.login_language {
+    margin-right: 30px;
+    display: inline-flex;
+    select {
+        color: $textColor;
+        padding: 0.3rem 2rem 0.3rem 2rem;
+        background: transparent;
+        appearance: none;
+        font-size: 1rem;
+    }
+    &__down {
+        position: relative;
+        top: 9px;
+        right: 36px;
+     }
+     &__web {
+        position: relative;
+        top: 9px;
+        left: 30px;
+     }
+     .login_language__button {
+        background-color: $buttonColor;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+        border-radius: 3px;
+        text-align: center;
+    }
+}
+
+nav img {
+    width: 148px;
+    margin-left: 12px;
+}
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}

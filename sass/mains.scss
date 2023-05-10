@@ -1,0 +1,76 @@
+@import "./utils/variables";
+@import "./components/blockBem";
+@import "./base/querry";
+@import "./base/Base";
+@import "./layout/nav";
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_login {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 430px;
+    height: 540px;
+    padding: 40px 60px 40px 60px;
+    gap: 20px;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.login_language img {
+    width: 40%;
+}
+
+
+
+.footer {
+    background-color: $backgroundColor;
+    height: 250px;
+    .footer_box{
+        opacity: 0.7;
+        color:$secondColor;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: 100vh;
+        margin-top: 130px;
+    }
+    .footer_box p {
+        margin-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .footer_box__ul {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .footer_box__ul li {
+        width: 25%;
+        font-size: 12px;
+        padding: 10px 50px;
+    }
+}
+
+.bot_nav {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+
+
