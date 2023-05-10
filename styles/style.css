@@ -152,13 +152,12 @@ body {
 }
 
 .container {
-  min-height: 100vh;
   overflow: hidden;
 }
 
 .container::before {
   content: "";
-  background-image: url(/images/netflix.png);
+  background-image: url(../images/netflix.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
